@@ -1,7 +1,7 @@
 package ro.faculate;
 import java.util.List;
 
-public class Cont {
+public class Account {
         private int cont;
         private int suma;
         private String titular;
@@ -10,7 +10,7 @@ public class Cont {
         private int plataFurnizori;
         private int sumaRetrasa;
 
-        public Cont(int cont, int suma, String titular, List<Card> carduri) {
+        public Account(int cont, int suma, String titular, List<Card> carduri) {
             this.cont = cont;
             this.suma = suma;
             this.titular = titular;
